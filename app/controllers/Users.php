@@ -11,7 +11,6 @@ class Users extends Controller
     {
         // Verifiare dupa metoda POST
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            // Process form
 
             // Curatarea datelor venite prin POST
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);

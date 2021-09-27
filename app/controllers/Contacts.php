@@ -10,7 +10,7 @@ class Contacts extends Controller
 
     public function index()
     {
-        //echo 111111;die;
+
         $data = [
             'name' => '',
             'email' => '',

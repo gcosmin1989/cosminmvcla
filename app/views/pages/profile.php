@@ -85,13 +85,10 @@
                 <div class="card">
                     <h3 id="5">Work Experience</h3>
                     <?php foreach ($data['posts'] as $post) : ?>
-                    <h2><?php echo $post->title; ?></h2>
-                    <h4><?php echo $post->body; ?></h4>
+                        <h2><?php echo $post->title; ?></h2>
+                        <p><?php echo $post->body; ?></p>
                     <?php endforeach; ?>
                 </div>
-
-
-
                 <div class="card">
                     <h3 id="6">Courses</h3>
                     <h2>Udemy</h2>

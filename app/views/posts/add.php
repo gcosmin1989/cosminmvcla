@@ -7,16 +7,16 @@
             <div class="form-control ">
                 <label for="title">Title: <sup>*</sup></label>
                 <input type="text" name="title"
-                       class="form-control form-control-lg <?php echo (!empty($data['title_err'])) ? 'is-invalid' : ''; ?>"
+                       class="form-control form-control-lg "
                        value="<?php echo $data['title']; ?>">
-                <span class="invalid-feedback"><?php echo $data['title_err']; ?></span>
+                <span class="invalid-feedback"><?php echo !empty($data['title_err']) ? $data['title_err'] : ''; ?></span>
             </div>
             <div class="form-control">
                 <label for="body">Body: <sup>*</sup></label>
                 <input type="text" name='body'
-                       class="form-control <?php echo (!empty($data['body_err'])) ? 'is-invalid' : ''; ?>"
+                       class="form-control "
                        value="<?php echo $data['body']; ?>">
-                <span class="invalid-feedback"><?php echo $data['body_err']; ?></span>
+                <span class="invalid-feedback"><?php echo !empty($data['body_err']) ? $data['body_err'] : ''; ?></span>
             </div>
             <input type="submit" class="btn btn-success" value="Submit">
         </form>

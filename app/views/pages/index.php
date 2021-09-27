@@ -9,7 +9,6 @@
                 Development, Looking forward for new opportunities in IT. Love to code and always opened to new
                 challenges</p>
             <img src="<?php echo URLROOT; ?>/public/img/CG_preview_rev_1.png" class="image" alt="Cosmin Gherghina">
-            <h2>Login or Register to see my full portfolio</h2>
         </div>
 
 

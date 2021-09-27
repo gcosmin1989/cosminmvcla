@@ -12,10 +12,10 @@
             </ul>
         </nav>
         <div class="social">
-            <a href="https://www.facebook.com/gherghina.cosmin"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/gcosmin/"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/gcosmin1989"><i class="fab fa-github fa-2x"></i></a>
-            <a href="https://www.instagram.com/this.cosmin/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/gherghina.cosmin" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/gcosmin/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/gcosmin1989" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.instagram.com/this.cosmin/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
 
     </div>
