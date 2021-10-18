@@ -7,6 +7,9 @@ class Posts extends Controller
         if (!isLoggedIn()) {
             redirect('users/login');
         }
+        if (isset($_SESSION['user_id']) && $_SESSION['user_id'] != 1) {
+            redirect('index');
+        }
 
         $this->postModel = $this->model('Post');
         $this->userModel = $this->model('User');
